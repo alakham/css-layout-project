@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap')
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+
+/* img{
+    width: 268px;
+    height: 33px;
+} */
+
+.nav_logo{
+    height: 33px;
+}
+
+nav{
+    position: static, sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(236, 229, 229);
+    background-color: transparent;
+}
+
+nav .onglet{
+    padding-left: 30%;
+    
+}
+
+nav .onglet a{
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.header{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.header .logo img{
+    display: block;
+    margin: 0 auto;
+   justify-content: center;
+   height: 33px;
+    
+}
+.header h1{
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.header .para:afetr, .para:before{
+    content: "";
+    display: table;
+    clear: both;
+    display: grid;
+    justify-content: center;
+}
+
+.para{
+    display: flex;
+    margin: 0 175px;
+}
+.para1{
+   
+    margin-right: 50px;
+}
+
+*,:after,:before {
+    box-sizing: inherit
+}
+
+.col-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: inherit;
+    padding: 43px 84px;
+    gap: 5%;
+}
+
+
+
+.cards{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    gap: 58px;
+    font-size: 24px;;
+}
+.cards .card1{
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #00ccb1;
+    opacity: .9;
+    border-radius: 10px;
+    color: white;
+}
+.cards .card1 h1{
+    color: white;
+    margin: 14px;
+}
+.cards .card1 h2{
+    color: white;
+    margin: 14px;
+}
+.cards .card1 .select{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 20px;
+}
+.cards .card1 .select #pays{
+    background-color: #00ccb1;
+    border: transparent;
+    color: white;
+}
+
+.cards .card2{
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #3d83df;
+    opacity: .9;
+    border-radius: 10px;
+    color: white;
+}
+
+.cards .card2 h1{
+    color: white;
+    margin: 14px;
+}
+
+.cards .card2 .select{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.cards .card2 .select #pays{
+    background-color: #3d83df;
+    border: transparent;
+    color: white;
+}
+
+
+.cards .card3{
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #1b2734;
+    opacity: .9;
+    border-radius: 10px;
+    color: white;
+}
+
+.cards .card3 h1{
+    color: white;
+    margin: 14px;
+}
+
+.cards .card3 .select{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cards .card3 .select #pays{
+    background-color: #1b2734;
+    border: transparent;
+    color: white;
+}
+
+
+.legende{
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 0px;
+    padding-top: 7%;
+}
+
+.legende .texte{
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -3px;
+    width: 40%;
+}
+
+.legende .liste{
+    width: 60%;
+    opacity: .55;
+}
+
+
+
+.legende .liste ul a{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    /* padding: 10px 20px; */
+    margin: 10px;
+}
+
+.row1{
+    display: flex;
+    list-style: none;
+}
+
+
+.row2{
+    display: flex;
+    list-style: none;
+
+}
+
+.row2 li .jameda a img{
+    height: 20px;
+}
+.row2 .tuto a img{
+    height: 15px;
+}
+
+.row2 .gipo a img{
+    height: 30px;
+}
+
+.row2 .ClinicCloud a img{
+    height: 34px;
+}
+
+
+
+
+.row3{
+    display: flex;
+    list-style: none;
+
+}
+.icone{
+    width: 22px;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 6px;
+    color: #ababab !important;
+}
+
+.texte h1{
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+
+.text:hover{
+    
+    color: #00ccb1 !important;
+}
+
+
+.container{
+    padding: 20px;
+    color:white;
+    display: flex;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 0.625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+
+}
+
+.container .grid{
+    margin-left: 55px;
+    color: #747474;
+}
+.container .grid h3{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    justify-content: center;
+}
+}
+
+
+.container .header h1{
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    /* font-size: 2.125rem;
+    color: #fff; */
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.container .header p{
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    color: #747474;
+}
+
+
+.grid .grid-container{
+    display: flex;
+}
+
+.stats .col{
+    margin-right: 10%;
+}
+
+/* cards */
+
+
+.pays{
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+
+.pays .container-images{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-top: 10px;
+    margin-right: 20px;
+    flex-direction: row;
+}
+
+.pays .container-images .card{
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.pays .container-images .card .card-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 270px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+.pays .container-images .card .card-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.pays .container-images .card .card-footer h1{
+    opacity: .1px;
+    font-weight: 200;
+}
+
+
+.pays .container-images .card .card-footer button{
+    background-color: rgb(50, 50, 83);
+    color: white;
+    width: 150px;
+    /* background: black; */
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .2s;
+    text-transform: uppercase;
+}
+
+/* last section */
+
+.last-section{
+    margin: 20px;
+    max-width: 520px;
+    margin: 0 auto;
+    font-size: .875em;
+    text-align: center;
+}
+
+.last-section h1{
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 23px;
+}
+
+.last-section button{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+/* footer */
+
+footer{
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer p{
+    font-size: 12px;
+    color: #ababab;
+}
+}
+
